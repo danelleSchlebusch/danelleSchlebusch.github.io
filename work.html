@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Work — Danelle Schlebusch</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+ <nav class="site-nav">
+    <a href="index.html">
+      <svg class="nav-icon" viewBox="0 0 22 22" aria-hidden="true">
+        <rect x="3" y="12" width="4" height="8" fill="#171717"/>
+        <rect x="9" y="6" width="4" height="14" fill="#171717"/>
+        <rect x="15" y="9" width="4" height="11" fill="#171717" opacity="0.5"/>
+      </svg>
+      Home
+    </a>
+    <a href="about.html">
+      <svg class="nav-icon" viewBox="0 0 22 22" aria-hidden="true">
+        <rect x="3" y="9" width="4" height="11" fill="#171717"/>
+        <rect x="9" y="13" width="4" height="7" fill="#171717"/>
+        <rect x="15" y="5" width="4" height="15" fill="#171717" opacity="0.5"/>
+      </svg>
+      About
+    </a>
+    <a href="work.html" class="active">
+      <svg class="nav-icon" viewBox="0 0 22 22" aria-hidden="true">
+        <rect x="3" y="4" width="4" height="16" fill="#171717"/>
+        <rect x="9" y="11" width="4" height="9" fill="#171717"/>
+        <rect x="15" y="8" width="4" height="12" fill="#171717" opacity="0.5"/>
+      </svg>
+      Work
+    </a>
+    <a href="contact.html">
+      <svg class="nav-icon" viewBox="0 0 22 22" aria-hidden="true">
+        <rect x="3" y="14" width="4" height="6" fill="#171717"/>
+        <rect x="9" y="7" width="4" height="13" fill="#171717"/>
+        <rect x="15" y="12" width="4" height="8" fill="#171717" opacity="0.5"/>
+      </svg>
+      Contact
+    </a>
+  </nav>
+
+  <main>
+    <section class="work">
+      <h1>
+        <svg class="h1-icon" viewBox="0 0 22 22" aria-hidden="true">
+          <rect x="3" y="4" width="4" height="16" fill="#171717"/>
+          <rect x="9" y="11" width="4" height="9" fill="#171717"/>
+          <rect x="15" y="8" width="4" height="12" fill="#171717" opacity="0.5"/>
+        </svg>
+        Work
+      </h1>
+
+      <h2>Strategic Sourcing Savings Tracker</h2>
+      <p>
+        Built as a four-page Power BI report to track savings performance
+        for a strategic sourcing initiative against target — from the
+        total number, down to business unit, down to month — so a
+        shortfall doesn't stay hidden behind an average.
+      </p>
+
+      <figure class="work-figure">
+        <a href="images/screenshot-1-overview.jpg" target="_blank" rel="noopener">
+          <img src="images/screenshot-1-overview.jpg"
+               alt="Regional Savings Performance overview: gauge showing 4527K actual against a 4955K target, a -428K shortfall card, 91.36% of target achieved, a monthly trend line, and a waterfall chart by region"
+               class="work-screenshot">
+        </a>
+        <figcaption>
+          <h3>Regional Savings Performance (overview)</h3>
+          <p>
+            At the total level, this initiative was $428K behind its
+            year-to-date target — 91.36% of target achieved. The monthly
+            trend shows actual performance closing the gap with target as
+            the year goes on, but never fully catching up. The waterfall
+            makes the next question obvious: which regions are pulling
+            that number down, and which are holding it up?
+          </p>
+        </figcaption>
+      </figure>
+
+      <figure class="work-figure">
+        <a href="images/screenshot-2-regional.jpg" target="_blank" rel="noopener">
+          <img src="images/screenshot-2-regional.jpg"
+               alt="Regional Performance: four gauges for Region A through D, a shortfall/surplus bar chart, and a table of actual, target, and shortfall by region"
+               class="work-screenshot">
+        </a>
+        <figcaption>
+          <h3>Regional Performance</h3>
+          <p>
+            Breaking the total apart by business unit answers that
+            question directly. Region A and Region B were both ahead of
+            target (+72K and +18K). Region C was $424K behind — the main
+            driver of the overall shortfall — and Region D was a further
+            $94K behind. Four regions, two very different stories, one
+            total number that would have hidden both.
+          </p>
+        </figcaption>
+      </figure>
+
+      <figure class="work-figure">
+        <a href="images/screenshot-3-monthly-trend.jpg" target="_blank" rel="noopener">
+          <img src="images/screenshot-3-monthly-trend.jpg"
+               alt="Four small line charts, one per region, showing actual monthly savings against target from January to December"
+               class="work-screenshot">
+        </a>
+        <figcaption>
+          <h3>Actual Monthly vs Target, by Region</h3>
+          <p>
+            The same breakdown, viewed by month instead of year-to-date.
+            This is where trend direction shows up: Region A pulled
+            further ahead of target as the year progressed, Region B
+            tracked close to target with only brief dips below it, Region
+            C stayed under target in every single month with a widening
+            gap, and Region D closed its gap somewhat by year end without
+            fully recovering. Two regions "behind target" on paper are
+            not the same problem — one is getting worse, the other is
+            getting better.
+          </p>
+        </figcaption>
+      </figure>
+
+      <figure class="work-figure">
+        <a href="images/screenshot-4-monthly-shortfall.jpg" target="_blank" rel="noopener">
+          <img src="images/screenshot-4-monthly-shortfall.jpg"
+               alt="Four small bar charts, one per region, showing monthly savings surplus or shortfall from January to December"
+               class="work-screenshot">
+        </a>
+        <figcaption>
+          <h3>Monthly Shortfall/Surplus, by Region</h3>
+          <p>
+            The shortfall/surplus values behind those trend lines, month
+            by month. Region A is in surplus almost every month. Region C
+            is in shortfall every single month, and the shortfall is
+            growing, not shrinking. That's the kind of detail a total YTD
+            number can't surface, and exactly what a manager needs to
+            know before deciding where to act.
+          </p>
+        </figcaption>
+      </figure>
+
+      <p class="work-closing">
+        This is the difference between knowing an initiative is "behind"
+        and knowing why — which region, by how much, in which month, and
+        whether it's getting better or worse. If your team needs this
+        kind of visibility into where a target is being missed,
+        <a href="contact.html" class="work-cta">email me and let's set up a 15-minute call</a>.
+      </p>
+
+      <p class="work-disclaimer">
+        Data shown is a synthetic dataset built to demonstrate this
+        dashboard's structure and is not drawn from any employer's real
+        figures.
+      </p>
+
+    </section>
+  </main>
+
+  <!-- Same idea here — reuse whatever footer you already built. -->
+  <footer class="site-footer">
+    <p>&copy; 2026 Danelle Schlebusch</p>
+  </footer>
+
+</body>
+</html>
